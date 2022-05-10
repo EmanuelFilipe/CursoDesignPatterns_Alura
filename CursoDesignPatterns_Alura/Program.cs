@@ -11,6 +11,8 @@ namespace CursoDesignPatterns_Alura
     {
         static void Main(string[] args)
         {
+            // STRATEGY
+
             IImposto iss = new ISS();
             IImposto icms = new ICMS();
             Orcamento orcamento = new Orcamento(500.0);
